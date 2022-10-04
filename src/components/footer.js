@@ -7,6 +7,7 @@ const Footer = props => (
     <div className="links flex">
       <div className="column mr-10 mb-8">
         <ul>
+          <li><h6>Customer Service</h6></li>
           <li><a href="/test">Contact Us</a></li>
           <li><a href="/test">Return Policy</a></li>
           <li><a href="/test">FAQ</a></li>
