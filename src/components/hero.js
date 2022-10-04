@@ -39,7 +39,7 @@ const Hero = ({ data }) => {
         </div>
       </div>
       <div className="slide--wrapper">
-          <div classNameslide ="flex flex-col justify-center items-center">
+        <div className ="slide flex flex-col justify-center items-center">
           <StaticImage className="slider--img" src="../images/hero--03.jpg" alt="Men’s Tees" />
           <div className="container">
             <div className="slider--content flex flex-col py-8">
