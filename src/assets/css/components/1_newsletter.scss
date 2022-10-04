@@ -1,6 +1,56 @@
 .newsletter {
   background-color: var(--color-primary);
-  height: 200px;
-  width: 100vw;
+  
   color: var(--color-white);
+}
+
+.newsletter-headline {
+  @media only screen and (max-width: 768px) {
+    svg {
+      transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      -moz-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+      -o-transform: scale(0.7);
+    }
+  }
+}
+
+.newsletter-content {
+  display: flex;
+  p, input {
+    margin-right: 1em;
+  }
+  input {
+    color: #c6c6c6;
+    width: 100%;
+  }
+
+  form, p {
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    p, input {
+      margin-right: 0;
+    }
+    form, p {
+      width: 100%;
+    }
+    input {
+      width: 90%;
+    }
+    p {
+      text-align: center;
+    }
+    form {
+      flex-direction: column;
+    }
+    .btn {
+      margin-top: 1em;
+    }
+  }
+
+
 }

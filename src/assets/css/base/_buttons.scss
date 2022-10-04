@@ -1,0 +1,21 @@
+.btn {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1em 4em;
+  letter-spacing: 0.1em;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+&--secondary {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+  background-color: transparent;
+}
+}
+
+input {
+  padding: 1em
+}
