@@ -1,5 +1,5 @@
 import * as React from "react"
-import Date from "../components/date"
+import Footer from "../components/footer"
 import Newsletter from "../components/newsletter"
 
 
@@ -7,6 +7,7 @@ const IndexPage = () => {
   return (
     <main>
       <Newsletter/>
+      <Footer/>
     </main>
   )
 }

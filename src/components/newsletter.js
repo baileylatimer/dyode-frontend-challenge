@@ -2,8 +2,8 @@
 import React from "react"
 
 const Newsletter = props => (
-<div className="newsletter flex flex-col justify-center items-center py-10">
-  <div className="container flex flex-col justify-center items-center">
+<div className="newsletter flex flex-col justify-center items-center py-12">
+<div className="container flex flex-col justify-center items-center">
     <div className="newsletter-headline flex items-center">
       <svg className="mr-4" width="53" height="36" viewBox="0 0 53 36" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M34.7106 18.2685L52.3636 29.4285V6.63721L34.7106 18.2685Z" fill="white"/>
