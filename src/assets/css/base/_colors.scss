@@ -3,3 +3,7 @@
   --color-white: #FFF;
   --color-black: #000
 }
+
+.text--light {
+  color: var(--color-white) !important;
+}

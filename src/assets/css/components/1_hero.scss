@@ -1,0 +1,27 @@
+.slide {
+  position: relative;
+  height: 638px;
+  display: flex !important;
+  h1, p {
+    color: var(--color-primary)
+  }
+}
+.slider--img {
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  object-fit: cover;
+}
+.slider--content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Dots */
+.slick-dots {
+  bottom: 20px !important;
+  li button:before {
+    font-size: 19px !important;
+    color: var(--color-white) !important;
+  }
+}
