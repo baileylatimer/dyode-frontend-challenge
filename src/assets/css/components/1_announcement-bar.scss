@@ -1,0 +1,7 @@
+.announcement-bar {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  @include link();
+  font-size: 14px;
+  text-align: center;
+}
