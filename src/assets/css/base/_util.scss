@@ -1,3 +1,15 @@
+/* Mixins
+================ */
+@mixin link() {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  letter-spacing: 0.1em;
+}
+
+
+/* Global 
+================ */
 body {
   margin: 0
 }
@@ -15,6 +27,22 @@ a {
   text-decoration: none;
 }
 
+/* Visibility
+================ */
+.hide-sm {
+  @media only screen and (max-width: 768px) {
+    display: none !important;  
+  }
+}
+
+.hide-lg {
+  @media only screen and (min-width: 768px) {
+    display: none !important;  
+  }
+}
+
+/* Layout
+================ */
 .container {
   max-width: 1345px;
   width: 100%;
@@ -30,7 +58,6 @@ a {
   flex-direction: column;
 }
 
-
 .justify-center {
   justify-content: center;
 }
@@ -43,7 +70,6 @@ a {
   justify-content: space-between;
 }
 
-
 .items-center {
   align-items: center;
 }
@@ -52,6 +78,9 @@ a {
   align-items: flex-start;
 }
 
+
+/* Spacing 
+================ */
 .m0 {
   margin: 0
 }
@@ -64,7 +93,6 @@ a {
   margin-bottom: 2em;
 }
 
-
 .mr-4 {
   margin-right: 1em;
 }
@@ -76,7 +104,15 @@ a {
   margin-right: 4em;
 }
 
+.py-4 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
+.py-8 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 .py-12 {
   padding-top: 4em;
   padding-bottom: 4em;

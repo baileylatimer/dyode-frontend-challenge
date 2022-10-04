@@ -7,21 +7,20 @@ const Footer = props => (
     <div className="links flex">
       <div className="column mr-10 mb-8">
         <ul>
-          <li><h6>Customer Service</h6></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Return Policy</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Gift Certificates</a></li>
-          <li><a href="#">Wishlist</a></li>
+          <li><a href="/test">Contact Us</a></li>
+          <li><a href="/test">Return Policy</a></li>
+          <li><a href="/test">FAQ</a></li>
+          <li><a href="/test">Gift Certificates</a></li>
+          <li><a href="/test">Wishlist</a></li>
         </ul>
       </div>
       <div className="column mb-8">
         <ul>
           <li><h6>Company</h6></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Affiliates</a></li>
+          <li><a href="/test">About Us</a></li>
+          <li><a href="/test">Careers</a></li>
+          <li><a href="/test">Press</a></li>
+          <li><a href="/test">Affiliates</a></li>
         </ul>
       </div>
     </div>

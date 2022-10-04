@@ -1,11 +1,13 @@
 import * as React from "react"
-import Footer from "../components/footer"
+import Header from "../components/header"
 import Newsletter from "../components/newsletter"
+import Footer from "../components/footer"
 
 
 const IndexPage = () => {
   return (
     <main>
+      <Header/>
       <Newsletter/>
       <Footer/>
     </main>

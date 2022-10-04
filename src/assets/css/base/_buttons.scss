@@ -1,9 +1,6 @@
 .btn {
   font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 1em 4em;
-  letter-spacing: 0.1em;
+  @include link();
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
