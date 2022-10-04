@@ -13,12 +13,20 @@ module.exports = {
       password: process.env.SHOPIFY_ADMIN_API_ACCESS_TOKEN,
       shopifyConnections: ["collections"], // source product collections too
     },
-  }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-sass", "gatsby-plugin-sitemap", {
+  }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-sass", "gatsby-plugin-sitemap", 
+  {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
       "path": "./src/images/"
     },
     __key: "images"
+  },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `css`,
+      path: `${__dirname}/src/assets/css/`,
+    },
   }]
 };
