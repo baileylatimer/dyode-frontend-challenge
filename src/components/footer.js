@@ -5,7 +5,7 @@ const Footer = props => (
 <footer className="flex flex-col justify-center items-center py-12">
   <div className="container flex justify-between items-start">
     <div className="links flex">
-      <div className="column mr-10 mb-8">
+      <div className="column mr-12 mb-8">
         <ul>
           <li><h6>Customer Service</h6></li>
           <li><a href="/test">Contact Us</a></li>

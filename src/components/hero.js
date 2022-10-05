@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"

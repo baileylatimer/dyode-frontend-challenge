@@ -4,6 +4,7 @@ import Header from "../components/header"
 import Hero from "../components/hero"
 import Newsletter from "../components/newsletter"
 import Footer from "../components/footer"
+import CollectionList from "../components/collection-list"
 
 
 
@@ -12,7 +13,8 @@ const IndexPage = () => {
     <main>
       <AnnouncementBar text="Free Shipping on All Orders Over $75"/>
       <Header/>
-      <Hero />
+      <Hero/>
+      <CollectionList/>
       <Newsletter/>
       <Footer/>
     </main>
@@ -21,4 +23,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>DYODE | Home Page</title>
