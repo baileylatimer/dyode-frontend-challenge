@@ -5,6 +5,8 @@ import Hero from "../components/hero"
 import Newsletter from "../components/newsletter"
 import Footer from "../components/footer"
 import CollectionList from "../components/collection-list"
+import FeaturedCollection from "../components/featured-collection"
+import SectionTitle from "../components/section-title"
 
 
 
@@ -15,6 +17,8 @@ const IndexPage = () => {
       <Header/>
       <Hero/>
       <CollectionList/>
+      <SectionTitle text="New Arrivals"/>
+      <FeaturedCollection/>
       <Newsletter/>
       <Footer/>
     </main>

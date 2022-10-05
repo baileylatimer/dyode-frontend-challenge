@@ -1,0 +1,64 @@
+.product--card {
+  width: 100%;
+  &:nth-child(2) {
+    margin-left: 2em;
+  }
+}
+
+.product--title {
+  font-size: 16px;
+  margin-bottom: 0;
+  @media only screen and (min-width: 768px) { 
+    font-size: 22px;
+  }
+}
+
+.product--subtitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 1em;
+  margin-bottom: 0;
+  @media only screen and (min-width: 768px) { 
+    font-size: 16px;
+  }
+}
+
+.product--price {
+  font-size: 18px;
+  font-family: 'Pacifico', cursive;
+  color: var(--color-primary);
+  margin-top: 0;
+  margin-bottom: 0;
+  @media only screen and (min-width: 768px) { 
+    font-size: 26px;
+  }
+}
+
+/* Arrows */
+.slick-prev::before, .slick-next::before {
+  display: none;
+}
+
+.slick-prev, .slick-next {
+  z-index: 2;
+}
+
+@media only screen and (max-width: 768px) { 
+  .slick-prev {
+    left: 15px !important;
+    transform: scale(.5) translate(0, -50%) !important;
+    -webkit-transform: scale(.5) translate(0, -50%) !important;
+    -moz-transform: scale(.5) translate(0, -50%) !important;
+    -ms-transform: scale(.5) translate(0, -50%) !important;
+    -o-transform: scale(.5) translate(0, -50%) !important;
+}
+  .slick-next {
+    right: 15px !important;
+    transform: scale(.5) translate(0, -50%) !important;
+    -webkit-transform: scale(.5) translate(0, -50%) !important;
+    -moz-transform: scale(.5) translate(0, -50%) !important;
+    -ms-transform: scale(.5) translate(0, -50%) !important;
+    -o-transform: scale(.5) translate(0, -50%) !important;
+}
+}

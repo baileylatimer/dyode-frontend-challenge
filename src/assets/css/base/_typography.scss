@@ -5,6 +5,12 @@
 
 @font-face {
   font-family: "Lato";
+  src: url("../fonts/Lato-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Lato";
   src: url("../fonts/Lato-Regular.ttf");
   font-weight: 400;
 }
@@ -28,6 +34,13 @@ body {
   }
 }
 
+h1 {
+  font-size: 26px;
+  @media only screen and (min-width: 768px) {
+    font-size: 60px;
+  } 
+}
+
 h4 {
   font-size: 20px;
   @media only screen and (min-width: 768px) {
@@ -40,6 +53,10 @@ h6 {
   @media only screen and (min-width: 768px) {
     font-size: 22px;
   }
+}
+
+.text-center {
+  text-align: center;
 }
 
 .subheader {
