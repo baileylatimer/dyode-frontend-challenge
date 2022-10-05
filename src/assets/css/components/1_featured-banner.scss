@@ -1,0 +1,11 @@
+.featured--banner  {
+  h1, p {
+    color: var(--color-white);
+  }
+  .slider--content div {
+    @media only screen and (max-width: 768px) { 
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

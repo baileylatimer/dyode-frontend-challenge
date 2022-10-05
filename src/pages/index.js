@@ -7,6 +7,7 @@ import Footer from "../components/footer"
 import CollectionList from "../components/collection-list"
 import FeaturedCollection from "../components/featured-collection"
 import SectionTitle from "../components/section-title"
+import FeaturedBanner from "../components/featured-banner"
 
 
 
@@ -19,6 +20,7 @@ const IndexPage = () => {
       <CollectionList/>
       <SectionTitle text="New Arrivals"/>
       <FeaturedCollection/>
+      <FeaturedBanner/>
       <Newsletter/>
       <Footer/>
     </main>
